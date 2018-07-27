@@ -15,9 +15,6 @@ for(i=0;i<1000000;i++){
     );
   }
 
-//Output:
-
-
 // query for a random username in users collection.
 //use explain() to get the query Stats
 db.users.find({"username":"user101"}).explain()
